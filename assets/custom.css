@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* Root variables - PXL Brand Colors */
+:root {
+    --pxl-primary: #000000;           /* Black - Primary PXL color */
+    --pxl-secondary: #333333;         /* Dark gray for secondary elements */
+    --pxl-accent: #D4AF37;            /* True Gold - PXL accent color */
+    --pxl-gold: #B8860B;              /* Darker gold for hover states */
+    --pxl-gold-light: #F4E4BC;        /* Light gold for backgrounds */
+    --pxl-success: #28a745;
+    --pxl-warning: #ffc107;
+    --pxl-danger: #dc3545;
+    --pxl-light: #f8f9fa;            /* Light gray background */
+    --pxl-white: #ffffff;            /* Pure white */
+    --pxl-dark: #212529;
+    --text-primary: #212529;         /* Dark text on light background */
+    --text-secondary: #6c757d;       /* Gray for secondary text */
+    --bg-gradient: linear-gradient(135deg, #000000 0%, #333333 100%);  /* Black to dark gray */
+    --gold-gradient: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%); /* True gold gradient */
+    --shadow-sm: 0 2px 4px rgba(0,0,0,0.04);
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
+    --shadow-lg: 0 8px 25px rgba(0,0,0,0.15);
+    --border-radius: 8px;
+    --transition: all 0.3s ease;
+    --sidebar-width: 300px;
+}
+
+/* Dark mode variables - PXL adapted */
+[data-theme="dark"] {
+    --text-primary: #e2e8f0;
+    --text-secondary: #a0aec0;
+    --pxl-light: #1a1a1a;           /* Dark background */
+    --pxl-white: #2d2d2d;           /* Dark card background */
+    --bg-gradient: linear-gradient(135deg, #1a1a1a 0%, #333333 100%);
+}
+
+/* Algemene styling */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.7;
+    color: var(--text-primary);
+    background: var(--pxl-light);
+    min-height: 100vh;
+}
+
+/* App wrapper for better menu positioning */
+#app {
+    position: relative;
+}
+
+/* Ensure hamburger menu has breathing room */
+.app-nav,
+nav.app-nav {
+    padding: 0.5rem 1rem !important;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    z-index: 1000 !important;
+}
+
+/* Top-left menu positioning */
+section.cover,
+.cover.show {
+    padding-top: 0 !important;
+}
+
+/* Menu button spacing from all edges */
+body > * button:first-of-type {
+    margin: 0.75rem !important;
+    padding: 1rem 1.25rem !important;
+}
+
+/* Sidebar - PXL Black & Gold Theme */
+.sidebar {
+    background: var(--pxl-primary);  /* Black sidebar */
+    border: none;
+    box-shadow: var(--shadow-lg);
+}
+
+/* Hamburger menu button - simple and clean */
+.sidebar-toggle {
+    background: transparent !important;
+    border: none !important;
+    padding: 1rem 1.25rem !important;      /* Spacing from edges */
+    margin: 0.5rem !important;
+    cursor: pointer;
+}
+
+/* Hamburger stripes - visible in all states */
+.sidebar-toggle span {
+    background: white !important;                        /* White stripes when closed */
+    height: 3px !important;                      /* Slightly thicker for visibility */
+    margin: 4px 0 !important;
+    display: block !important;
+    width: 22px !important;                      /* Slightly wider for visibility */
+    transition: var(--transition) !important;
+    border-radius: 1px !important;              /* Slightly rounded edges */
+}
+
+/* Black stripes when sidebar is open (light background) */
+.close .sidebar-toggle span,
+body.close .sidebar-toggle span {
+    background: var(--pxl-primary) !important;
+}
+
+/* Hover effect */
+.sidebar-toggle:hover span {
+    background: var(--pxl-accent) !important;   /* Gold on hover */
+}
+
+.sidebar-nav {
+    padding-top: 2rem;
+}
+
+.sidebar-nav > ul > li > a {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius);
+    margin: 0.25rem 1rem;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.sidebar-nav > ul > li > a:hover,
+.sidebar-nav > ul > li > a.active {
+    background: rgba(255, 215, 0, 0.15);  /* Gold highlight */
+    color: var(--pxl-accent);            /* Gold text */
+    backdrop-filter: blur(10px);
+    transform: translateX(4px);
+}
+
+.sidebar-nav > ul > li > a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background: var(--pxl-accent);       /* Gold accent bar */
+    transform: translateX(-100%);
+    transition: var(--transition);
+}
+
+.sidebar-nav > ul > li > a.active::before,
+.sidebar-nav > ul > li > a:hover::before {
+    transform: translateX(0);
+}
+
+/* Main content gebied - PXL White */
+.content {
+    background: var(--pxl-white);       /* Pure white content area */
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    margin: 1rem;
+    min-height: calc(100vh - 2rem);
+    position: relative;
+    left: 0;
+    transition: var(--transition);
+}
+
+main {
+    padding: 2.5rem 3rem 4rem 3rem;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    max-width: none;
+    line-height: 1.7;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+/* Headers - PXL Black */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: var(--pxl-primary);         /* PXL Black headers */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: var(--gold-gradient);   /* Gold gradient for main titles */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: var(--pxl-accent);     /* Gold underline */
+    border-radius: 2px;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid var(--pxl-light);
+    padding-bottom: 0.5rem;
+    color: var(--pxl-primary);
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--pxl-secondary);       /* Dark gray for h3 */
+}
+
+/* Responsive content adjustment for sidebar */
+@media screen and (min-width: 768px) {
+    body.close .content {
+        margin-left: 1rem;
+    }
+    
+    .content {
+        margin-left: calc(var(--sidebar-width, 300px) + 1rem);
+    }
+    
+    .sidebar {
+        width: var(--sidebar-width, 300px);
+    }
+}
+
+/* Native docsify callout boxes: !> (.warn) and ?> (.tip) */
+.warn {
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, var(--pxl-gold-light) 0%, #f8f5e8 100%);
+    border: none;
+    border-left: 5px solid var(--pxl-accent);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    color: var(--pxl-dark) !important;
+}
+
+.warn p,
+.warn strong,
+.warn a {
+    color: var(--pxl-dark) !important;
+}
+
+.warn::before {
+    content: '⚠️ ';
+    font-size: 1rem;
+}
+
+.tip {
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, #e8f4fd 0%, #d1ecf1 100%);
+    border: none;
+    border-left: 5px solid #17a2b8;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    color: #0c5460 !important;
+}
+
+.tip p,
+.tip strong,
+.tip a {
+    color: #0c5460 !important;
+}
+
+.tip::before {
+    content: '💡 ';
+    font-size: 1rem;
+}
+
+/* Success box */
+.success {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #d4edda 0%, #a3d977 100%);
+    border: none;
+    border-left: 5px solid var(--pxl-success);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+}
+
+.success::before {
+    content: '✅';
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+/* Info box - PXL Colors */
+.info {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: none;
+    border-left: 5px solid var(--pxl-secondary);  /* Dark gray border */
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+}
+
+.info::before {
+    content: 'ℹ️';
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+/* Warning with PXL gold accent */
+.warning {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, var(--pxl-gold-light) 0%, #f8f5e8 100%);
+    border: none;
+    border-left: 5px solid var(--pxl-accent);     /* True gold border */
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    position: relative;
+    overflow: hidden;
+}
+
+.warning::before {
+    content: '⚠️';
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.warning code {
+    color: var(--pxl-gold) !important;            /* Dark gold text */
+    background-color: rgba(212, 175, 55, 0.2) !important;  /* True gold background */
+    border-radius: 4px;
+    padding: 0.2rem 0.4rem;
+}
+
+/* Tabellen styling - PXL Colors */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 2rem 0;
+    box-shadow: var(--shadow-md);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    background: var(--pxl-white);
+}
+
+thead th {
+    background: var(--pxl-primary);    /* Black header */
+    color: var(--pxl-accent);          /* Gold text */
+    font-weight: 600;
+    text-align: left;
+    padding: 1rem 1.5rem;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid var(--pxl-accent);  /* Gold border */
+}
+
+tbody td {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    transition: var(--transition);
+    background: var(--pxl-white);
+    color: var(--text-primary);
+}
+
+tbody tr:hover {
+    background: #f8f9fa;
+    transform: scale(1.001);
+}
+
+tbody tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+tbody tr:nth-child(even):hover {
+    background: #e9ecef;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Images */
+main img {
+    display: block;
+    margin: 2rem auto;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    transition: var(--transition);
+    max-width: 100%;
+    height: auto;
+}
+
+main img:hover {
+    transform: scale(1.02);
+    box-shadow: var(--shadow-lg);
+}
+
+main img[alt*="right"] {
+    float: right;
+    margin: 0.5rem 0 1rem 1.5rem;
+    max-width: 300px;
+}
+
+main img[alt*="left"] {
+    float: left;
+    margin: 0.5rem 1.5rem 1rem 0;
+    max-width: 300px;
+}
+
+/* Code blocks - PXL Theme */
+pre {
+    background: var(--pxl-primary);      /* Black background */
+    color: var(--pxl-accent);            /* Gold text */
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    box-shadow: var(--shadow-md);
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    overflow-x: auto;
+    border: 1px solid var(--pxl-accent);  /* Gold border */
+}
+
+code {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    background: rgba(0, 0, 0, 0.1);     /* Light black background */
+    color: var(--pxl-primary);          /* Black text */
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+/* Links - PXL Colors */
+a {
+    color: var(--pxl-primary);            /* Black links */
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+    position: relative;
+}
+
+a:hover {
+    color: var(--pxl-gold);               /* Gold on hover */
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background: var(--pxl-accent);        /* Gold underline */
+    transition: var(--transition);
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+/* Buttons - PXL Theme */
+.button, .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: var(--pxl-primary);       /* Black background */
+    color: var(--pxl-accent);             /* Gold text */
+    border: 2px solid var(--pxl-accent);  /* Gold border */
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+}
+
+.button:hover, .btn:hover {
+    background: var(--pxl-accent);       /* Gold background on hover */
+    color: var(--pxl-primary);           /* Black text on hover */
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Back to portfolio button styling */
+.sidebar-nav a[href="/"] {
+    background: var(--pxl-accent) !important;    /* Gold background */
+    color: var(--pxl-primary) !important;        /* Black text */
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+    border: 2px solid var(--pxl-accent);
+}
+
+.sidebar-nav a[href="/"]:hover {
+    background: var(--pxl-primary) !important;   /* Black on hover */
+    color: var(--pxl-accent) !important;         /* Gold text on hover */
+}
+
+/* Card styling - PXL Colors */
+.card {
+    background: var(--pxl-white);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    margin: 1.5rem 0;
+    box-shadow: var(--shadow-md);
+    border-left: 4px solid var(--pxl-primary);  /* Black accent */
+    transition: var(--transition);
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    border-left-color: var(--pxl-accent);       /* Gold on hover */
+}
+
+/* Progress bars - PXL Colors */
+.progress {
+    background: #e9ecef;
+    border-radius: 50px;
+    height: 8px;
+    margin: 1rem 0;
+    overflow: hidden;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.progress-bar {
+    background: var(--gold-gradient);      /* Gold gradient progress */
+    height: 100%;
+    border-radius: 50px;
+    transition: width 0.6s ease;
+}
+
+/* Skills badges - PXL Theme */
+.skill-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--pxl-white);
+    color: var(--pxl-primary);           /* Black text */
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0.25rem;
+    border: 2px solid var(--pxl-primary); /* Black border */
+    transition: var(--transition);
+}
+
+.skill-badge:hover {
+    background: var(--pxl-primary);      /* Black background on hover */
+    color: var(--pxl-accent);            /* Gold text on hover */
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+/* Timeline styling - PXL Colors */
+.timeline {
+    position: relative;
+    padding-left: 3rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 1rem;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: var(--pxl-secondary);    /* Dark gray line */
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    background: var(--pxl-white);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    border-left: 3px solid var(--pxl-light);
+}
+
+.timeline-item:hover {
+    border-left-color: var(--pxl-accent); /* Gold accent on hover */
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2.75rem;
+    top: 1.5rem;
+    width: 12px;
+    height: 12px;
+    background: var(--pxl-accent);       /* Gold timeline dots */
+    border-radius: 50%;
+    border: 3px solid var(--pxl-white);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    /* Extra spacing for mobile hamburger menu */
+    .sidebar-toggle {
+        padding: 1.2rem 1.5rem !important;    /* Even more padding on mobile */
+        margin: 0.75rem !important;          /* Larger margin from screen edges */
+    }
+    
+    .content {
+        margin: 0.5rem !important;
+        margin-left: 0.5rem !important;
+    }
+    
+    main {
+        padding: 1.5rem 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .timeline {
+        padding-left: 1rem;
+    }
+    
+    .timeline::before {
+        left: 0;
+    }
+    
+    .timeline-item::before {
+        left: -6px;
+    }
+    
+    .card {
+        margin: 1rem 0;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .content {
+        margin-left: calc(var(--sidebar-width) + 0.5rem);
+        margin-right: 0.5rem;
+    }
+    
+    main {
+        padding: 2rem 1.5rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    .sidebar {
+        display: none !important;
+    }
+
+    .content {
+        left: 0 !important;
+        margin: 0 !important;
+        margin-left: 0 !important;
+        box-shadow: none;
+        border-radius: 0;
+        width: 100% !important;
+    }
+    
+    main {
+        padding: 1rem;
+    }
+    
+    .card {
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+    
+    a::after {
+        display: none;
+    }
+    
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+    
+    .timeline-item, .card {
+        page-break-inside: avoid;
+    }
+}
+
+/* Loading animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeInUp 0.6s ease-out;
+}

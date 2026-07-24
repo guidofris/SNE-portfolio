@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio – De secties invullen</title>
+<style>
+  body { font-family: Calibri, Arial, sans-serif; color: #222; line-height: 1.55; max-width: 850px; margin: 0 auto; padding: 20px; }
+  h1 { color: #003366; border-bottom: 3px solid #003366; padding-bottom: 8px; }
+  h2 { color: #003366; margin-top: 34px; }
+  h3 { color: #005599; }
+  p { margin: 10px 0; }
+  .intro-box { background: #eef4fb; border-left: 5px solid #003366; padding: 14px 18px; margin: 18px 0; }
+  .tip-box { background: #f3f9ee; border-left: 5px solid #4a8c2a; padding: 14px 18px; margin: 18px 0; }
+  .warning-box { background: #fdf2ec; border-left: 5px solid #c0562b; padding: 14px 18px; margin: 18px 0; }
+  .exercise-box { background: #fbf6e6; border: 2px dashed #c99a1e; padding: 16px 18px; margin: 24px 0; border-radius: 6px; }
+  .checkpoint-box { background: #eafaf1; border-left: 5px solid #1e8449; padding: 12px 18px; margin: 16px 0; }
+  ul, ol { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+  th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #003366; color: #fff; }
+  tr:nth-child(even) { background: #f5f7fa; }
+  code { background: #eee; padding: 2px 6px; border-radius: 3px; font-family: Consolas, monospace; font-size: 0.92em; }
+  pre.cmd { background: #2b2b2b; color: #eee; padding: 12px 16px; border-radius: 4px; font-family: Consolas, monospace; font-size: 0.9em; overflow-x: auto; margin: 10px 0; }
+  .screenshot { max-width: 100%; border: 1px solid #ccc; border-radius: 6px; margin: 14px 0; display: block; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+  .cta-button { display: inline-block; background: #003366; color: #fff !important; text-decoration: none; font-weight: bold; padding: 12px 22px; border-radius: 6px; margin: 12px 0 20px; }
+  .cta-button:hover { background: #00509e; }
+  .section-badge { display: inline-block; background: #003366; color: #fff; font-size: 0.8em; font-weight: bold; padding: 3px 10px; border-radius: 12px; margin-right: 6px; vertical-align: middle; }
+  .divider { border: none; border-top: 2px solid #e0e7f0; margin: 32px 0; }
+</style>
+</head>
+<body>
+
+<h1>Portfolio – De secties invullen</h1>
+<p><em>Werkplekleren 1, Graduaat Systeem- en Netwerkbeheer, leerweg Portfolio (3/3)</em></p>
+
+<div class="intro-box">
+  <strong>Leerdoelen</strong><br>
+  Na dit onderdeel weet je:
+  <ul>
+    <li>waarvoor elke sectie van het portfolio dient;</li>
+    <li>welke informatie je in elke sectie moet invullen;</li>
+    <li>wanneer je welke sectie aanvult tijdens het werkplekleren.</li>
+  </ul>
+</div>
+
+<p>Je portfolio bestaat uit <strong>7 secties</strong>. Elke sectie heeft een specifieke functie. Hieronder vind je per sectie uitleg over wat er van jou verwacht wordt, plus praktische tips om te starten.</p>
+
+<div class="tip-box">
+  <strong>💡 Weet je niet hoe een ingevuld portfolio eruitziet?</strong> In de <strong>Wiki</strong>-tab van je repository vind je een volledig uitgewerkt voorbeeldportfolio. Dat geeft je een goed beeld van wat er verwacht wordt.
+</div>
+
+<hr class="divider">
+
+<h2><span class="section-badge">1</span> Introductie</h2>
+<p><strong>Bestand:</strong> <code>Intro/Intro.md</code></p>
+
+<p>In de introductie stel je jezelf voor. Dit is het visitekaartje van je portfolio: wie ben je, wat doe je, en wat zijn je verwachtingen van het werkplekleren?</p>
+
+<h3>Wat vul je in?</h3>
+<ul>
+  <li>Je naam, studierichting en contactgegevens (LinkedIn, GitHub, …)</li>
+  <li>Een korte tekst over jezelf: je achtergrond, interesses en motivatie voor SNE</li>
+  <li>Je verwachtingen van het werkplekleren: wat wil je leren? Wat wil je bereiken?</li>
+  <li>Een foto van jezelf (optioneel maar aanbevolen)</li>
+</ul>
+
+<div class="exercise-box">
+  <strong>Opdracht – Introductie</strong><br>
+  Open <code>Intro/Intro.md</code> en vervang alle plaatshouders (tekst tussen <code>[</code> en <code>]</code>) door jouw eigen informatie. Sla op via <em>Commit changes</em> en bekijk het resultaat in je live portfolio.
+</div>
+
+<div class="tip-box">
+  <strong>💡 Tip:</strong> De introductie hoef je maar één keer in te vullen. Je mag ze later nog aanpassen als jouw verwachtingen of doelen veranderen.
+</div>
+
+<hr class="divider">
+
+<h2><span class="section-badge">2</span> Logboek werkplekleren</h2>
+<p><strong>Bestand:</strong> <code>Logboek/Logboek.md</code></p>
+
+<p>Het logboek is je wekelijks dagboek van het werkplekleren. Je vult het in <strong>na elke les of activiteit</strong>. Het helpt je om bij te houden wat er wekelijks is gebeurd en om te reflecteren op je eigen leerproces.</p>
+
+<h3>Structuur van een weeknotitie</h3>
+<p>Voor elke week beantwoord je vier vragen:</p>
+<table>
+  <tr><th>Vraag</th><th>Wat je noteert</th></tr>
+  <tr><td>Wat heb ik deze week gedaan?</td><td>Een korte opsomming van de activiteiten of lessen van die week.</td></tr>
+  <tr><td>Wat heb ik geleerd?</td><td>Nieuwe kennis, vaardigheden of inzichten die je hebt opgedaan.</td></tr>
+  <tr><td>Wat vond ik moeilijk of verrassend?</td><td>Wees eerlijk — wat was een uitdaging of verrassing?</td></tr>
+  <tr><td>Wat neem ik mee naar volgende week?</td><td>Een voornemen, een vraag, of een concreet actiepunt.</td></tr>
+</table>
+
+<h3>Hoe vul je het in?</h3>
+<ol>
+  <li>Open <code>Logboek/Logboek.md</code>.</li>
+  <li>Je ziet een weeksjabloon met de vier vragen al klaarstaan. Vul week 1 en week 2 in als voorbeeld.</li>
+  <li>Kopieer het sjabloon en plak het voor elke volgende week. Pas de weeknummer en datum aan.</li>
+  <li>Vul de vier vragen in en sla op via <em>Commit changes</em>.</li>
+</ol>
+
+<div class="warning-box">
+  <strong>⚠️ Vul het logboek bij na elke les — niet alles achteraf.</strong> Als je wacht tot het einde van het semester, vergeet je de details. Een paar zinnen per week is voldoende.
+</div>
+
+<div class="tip-box">
+  <strong>💡 Tip:</strong> Het logboek bevat ook een agenda met alle geplande lesdagen. Gebruik die als leidraad om te weten wanneer je een nieuwe weeknotitie moet toevoegen.
+</div>
+
+<hr class="divider">
+
+<h2><span class="section-badge">3</span> Ontwikkelingsgesprekken</h2>
+<p><strong>Bestand:</strong> <code>Ontwikkelingsgesprekken/Ontwikkelingsgesprekken.md</code></p>
+
+<p>In deze sectie noteer je de inhoud van je <strong>ontwikkelingsgesprekken met je coach</strong>. Dit zijn de geplande gesprekken waarin je samen met je coach terugblikt op je voortgang en vooruitkijkt naar de volgende periode.</p>
+
+<h3>Wat vul je in per gesprek?</h3>
+<ul>
+  <li>Datum en naam van je coach</li>
+  <li>Wat er besproken is: sterke punten, werkpunten, situaties</li>
+  <li>Gemaakte afspraken en actiepunten</li>
+  <li>Hoe je de afspraken hebt uitgevoerd (vul dit in daarna)</li>
+</ul>
+
+<div class="exercise-box">
+  <strong>Opdracht – Eerste ontwikkelingsgesprek</strong><br>
+  Vul na je eerste gesprek met je coach de template in voor WPL 1. Noteer de datum, wat er is besproken, en welke afspraken er zijn gemaakt.
+</div>
+
+<div class="tip-box">
+  <strong>💡 Tip:</strong> Maak tijdens het gesprek zelf korte notities. Zo vergeet je nadien niets bij het invullen van deze sectie.
+</div>
+
+<hr class="divider">
+
+<h2><span class="section-badge">4</span> Opdrachten</h2>
+<p><strong>Bestand:</strong> <code>Opdrachten/Opdrachten.md</code></p>
+
+<p>In deze sectie beschrijf je de opdrachten die je hebt uitgevoerd tijdens het werkplekleren. Per opdracht geef je een duidelijk overzicht van wat je hebt gedaan en wat je ervan hebt geleerd.</p>
+
+<h3>Wat vul je in per opdracht?</h3>
+<table>
+  <tr><th>Onderdeel</th><th>Uitleg</th></tr>
+  <tr><td>Naam van de opdracht</td><td>Geef de opdracht een duidelijke naam.</td></tr>
+  <tr><td>Beschrijving</td><td>Wat moest je doen? Wat was het doel?</td></tr>
+  <tr><td>Aanpak</td><td>Hoe ben je te werk gegaan? Welke stappen heb je gevolgd?</td></tr>
+  <tr><td>Resultaat</td><td>Wat was het eindresultaat? Gelukt of niet — en waarom?</td></tr>
+  <tr><td>Wat heb je geleerd?</td><td>Welke kennis of vaardigheid heb je er uit meegenomen?</td></tr>
+  <tr><td>Bewijsmateriaal</td><td>Screenshot, link, of bestand dat aantoont wat je hebt gemaakt.</td></tr>
+</table>
+
+<div class="tip-box">
+  <strong>💡 Tip:</strong> Voeg bij elke opdracht minstens één screenshot of ander bewijs toe. Dat maakt je portfolio concreter en sterker.
+</div>
+
+<div class="warning-box">
+  <strong>⚠️ Kopieer de template voor elke nieuwe opdracht.</strong> Verwijder het voorbeeldblok niet — kopieer het en plak het eronder voor de volgende opdracht.
+</div>
+
+<hr class="divider">
+
+<h2><span class="section-badge">5</span> Projecten &amp; Cases</h2>
+<p><strong>Bestand:</strong> <code>Projecten/Projecten.md</code></p>
+
+<p>Hier beschrijf je grotere projecten of cases waarbij je betrokken bent geweest. Het verschil met een opdracht: een project loopt langer, is complexer, en is vaak in groep.</p>
+
+<h3>Wat vul je in per project?</h3>
+<ul>
+  <li>Naam, context en doel van het project</li>
+  <li>Jouw specifieke rol en taken binnen het project</li>
+  <li>De technologieën of tools die je hebt gebruikt</li>
+  <li>Uitdagingen die je bent tegengekomen en hoe je ze hebt aangepakt</li>
+  <li>Het eindresultaat en wat je ervan hebt geleerd</li>
+</ul>
+
+<div class="tip-box">
+  <strong>💡 Geen projecten in WPL 1?</strong> Dat is normaal. Laat deze sectie dan voorlopig leeg of voeg een korte notitie toe. Je vult ze aan zodra je grotere projecten hebt.
+</div>
+
+<hr class="divider">
+
+<h2><span class="section-badge">6</span> Certificeringen &amp; CV</h2>
+<p><strong>Bestand:</strong> <code>Certificeringen/Certificeringen.md</code></p>
+
+<p>In deze sectie houd je bij welke certificeringen je hebt behaald of aan het voorbereiden bent, en hoe je werkt aan je professioneel profiel.</p>
+
+<h3>Onderdelen van deze sectie</h3>
+<table>
+  <tr><th>Onderdeel</th><th>Wat je invult</th></tr>
+  <tr><td>Behaalde certificeringen</td><td>Naam, datum, score en link naar digitale badge.</td></tr>
+  <tr><td>In voorbereiding</td><td>Welk certificaat wil je halen? Wanneer? Hoe bereid je je voor?</td></tr>
+  <tr><td>Professionele doelen</td><td>Je certificeringsroadmap: welke stappen wil je zetten tijdens je graduaat?</td></tr>
+  <tr><td>CV &amp; online profiel</td><td>Link naar je LinkedIn-profiel en je cv (pdf).</td></tr>
+</table>
+
+<div class="tip-box">
+  <strong>💡 Tip:</strong> Heb je nog geen certificeringen? Vul dan de sectie <em>"In Voorbereiding"</em> in. Welk certificaat lijkt je interessant? Cisco, CompTIA, Microsoft? Noteer je plan en gebruik de voortgangsbalk (<code>[progress:25]</code>) om je vooruitgang bij te houden.
+</div>
+
+<div class="tip-box">
+  <strong>💡 LinkedIn en GitHub</strong>: als je die profielen nog niet hebt aangemaakt, is dit het juiste moment. Voeg de links toe aan deze sectie zodra ze actief zijn.
+</div>
+
+<hr class="divider">
+
+<h2><span class="section-badge">7</span> Reflectie</h2>
+<p><strong>Bestand:</strong> <code>Reflectie/Reflectie.md</code></p>
+
+<p>De reflectiesectie is de kern van je portfolio. Hier denk je na over wat je hebt meegemaakt, wat je hebt geleerd, en hoe je verder wil groeien. Je vult de reflectie in <strong>aan het einde van elke WPL-periode</strong>.</p>
+
+<h3>Reflectievragen per WPL-periode</h3>
+<p>Voor elke periode beantwoord je een reeks vragen. Ze zijn opgedeeld in drie niveaus:</p>
+
+<table>
+  <tr><th>Niveau</th><th>Vragen</th></tr>
+  <tr>
+    <td><strong>Terugblikken</strong><br>(wat is er gebeurd?)</td>
+    <td>Wat waren de belangrijkste momenten van deze periode? Welke opdrachten of situaties zijn je het meest bijgebleven?</td>
+  </tr>
+  <tr>
+    <td><strong>Begrijpen</strong><br>(wat betekent het?)</td>
+    <td>Wat heb je geleerd — technisch en persoonlijk? Wat ging goed? Wat liep minder goed, en waarom?</td>
+  </tr>
+  <tr>
+    <td><strong>Vooruitkijken</strong><br>(wat doe je ermee?)</td>
+    <td>Wat wil je verbeteren of aanpakken in de volgende periode? Welke concrete stap ga je zetten?</td>
+  </tr>
+</table>
+
+<div class="tip-box">
+  <strong>💡 Tip:</strong> Wees eerlijk in je reflectie. Je coach leest dit niet als een evaluatie maar als een groeidocument. Schrijf voor jezelf — en gebruik het logboek als geheugensteuntje voor wat er die periode is gebeurd.
+</div>
+
+<div class="warning-box">
+  <strong>⚠️ Wacht niet tot het allerlaatste moment.</strong> Vul de reflectie in tijdens of vlak na de WPL-periode, niet pas bij de portfolio-indiening.
+</div>
+
+<hr class="divider">
+
+<h2>Wanneer vul je wat in?</h2>
+
+<table>
+  <tr><th>Wanneer</th><th>Wat je aanvult</th></tr>
+  <tr><td>Week 1 van WPL 1</td><td>Introductie volledig invullen</td></tr>
+  <tr><td>Na elke les (wekelijks)</td><td>Logboek — nieuwe weeknotitie toevoegen</td></tr>
+  <tr><td>Na elke afgewerkte opdracht</td><td>Opdrachten — nieuwe opdracht toevoegen</td></tr>
+  <tr><td>Na elk ontwikkelingsgesprek</td><td>Ontwikkelingsgesprekken — gesprek noteren</td></tr>
+  <tr><td>Doorheen het semester</td><td>Certificeringen — bijwerken als er iets nieuws is</td></tr>
+  <tr><td>Einde van elke WPL-periode</td><td>Reflectie — per WPL-periode invullen</td></tr>
+  <tr><td>Als je grotere projecten hebt</td><td>Projecten &amp; Cases — toevoegen en beschrijven</td></tr>
+</table>
+
+<div class="checkpoint-box">
+  <strong>✅ Checkpunt:</strong> Je weet nu wat er in elke sectie hoort en wanneer je ze aanvult. Open je portfolio en vul minstens je introductie en je eerste weeknotitie in het logboek in.
+</div>
+
+</body>
+</html>
