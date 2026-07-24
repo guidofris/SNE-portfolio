@@ -124,7 +124,7 @@ Dit portfolio documenteert mijn reis tijdens de Associate Degree SNE. Ik gebruik
 
 *Laatste update: 18 maart 2026*
 
-[**← Terug naar voorbeeldportfolio overzicht**](./Home.md)
+[**← Terug naar voorbeeldportfolio overzicht**](/Wiki/Home)
 * Sommige delen tekst geven extra uitleg en deze neem je niet over in je portfolio. Gebruik hierbij je gezond verstand.
   
 ### **INHOUD ONDERDEEL INTRO:**

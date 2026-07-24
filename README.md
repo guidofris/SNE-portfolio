@@ -31,7 +31,7 @@ Elk van deze delen moet voorkomen in jouw portfolio.
 ---
 
 **💡 Hulp nodig bij het invullen van je portfolio?**  
-[**Bekijk hier een volledig ingevuld voorbeeldportfolio →**](./Wiki/Home.md)
+[**Bekijk hier een volledig ingevuld voorbeeldportfolio →**](/Wiki/Home)
 
 ---
 

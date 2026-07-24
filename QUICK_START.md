@@ -53,7 +53,7 @@ Het kan 1-2 minuten duren voor je wijzigingen zichtbaar zijn.
 Nee. GitHub bewaart alle vorige versies. Als er iets fout gaat, kan je coach of jijzelf altijd een eerdere versie terugzetten.
 
 **Hoe voeg ik een afbeelding toe?**  
-Bekijk de uitleg in de [Wiki → Extra Help](./Wiki/Extra_Help.md).
+Bekijk de uitleg in de [Wiki → Extra Help](/Wiki/Extra_Help).
 
 **Wat zijn die `?>`- en `!>`-blokken?**  
 Dat zijn instructies voor jou als student. Je mag ze gewoon weggooien als je ze hebt gelezen en vervangen door jouw eigen tekst.
