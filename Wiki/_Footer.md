@@ -1,1 +1,4 @@
-Laatste update door Guido Frissaer op 13 juni 2023
+---
+[← Terug naar jouw eigen portfolio](/)
+
+*Laatste update door Guido Frissaer op 13 juni 2023*
