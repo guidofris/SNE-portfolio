@@ -1,81 +1,75 @@
 # Reflectie
 
-Reflecteren betekent dat je stilstaat bij wat je hebt meegemaakt en wat je ervan hebt geleerd. Schrijf hier na elk werkplekleren een eerlijke terugblik.
+Voor de reflectie gebruiken we de **AIM-methode** (Agile Insight Mentor). Die bestaat uit vier onderdelen: *Goed*, *Minder goed*, *Inzicht* en *Waardering*. Vul na elk werkplekleren alle vier de onderdelen in.
 
-?> **Hoe schrijf je een goede reflectie?** Beantwoord telkens drie vragen: *Wat heb ik gedaan?* — *Hoe is dat verlopen?* — *Wat leer ik hieruit voor de toekomst?*
+?> **AIM – Goed 😊** Wat vond je een bijzonder positief element? Wat vond je leuk? Wat ging er goed? Wat heeft je positief verrast?
+
+?> **AIM – Minder goed 😟** Wat vond je een minder leuk element? Wat vond je frustrerend? Waar botste je tegenaan? Wat liep er mis?
+
+?> **AIM – Inzicht 💡** Welke nieuwe inzichten neem je mee? Welke concrete inzichten wil je toepassen op volgende projecten? Zijn er dingen die je volgende keer anders zou willen doen? Zijn er dingen die je nu op een andere manier bekijkt door je afgelopen ervaring? Wat vind je de meest waardevolle informatie/les die je hebt meegekregen?
+
+?> **AIM – Waardering 👑** Wat zou je een persoonlijk succes noemen? Waarop ben je trots en waarom? Welk teamlid heeft indruk op je gemaakt en waarom? Wie/wat verdient een shout-out en waarom?
 
 ---
 
 ## Reflectie WPL 1
 
-### Wat heb ik bereikt?
-[Beschrijf welke opdrachten, projecten en activiteiten je hebt afgerond tijdens WPL 1.]
+### 😊 Goed
+[Wat vond je positief? Wat ging er goed? Wat heeft je positief verrast?]
 
-### Hoe is het verlopen?
-[Wat ging goed? Wat was moeilijk? Hoe heb je met uitdagingen omgegaan?]
+### 😟 Minder goed
+[Wat vond je frustrerend? Waar botste je tegenaan? Wat liep er mis?]
 
-### Wat heb ik geleerd over mezelf?
-[Denk aan soft skills: communicatie, plannen, samenwerken, omgaan met feedback, ...]
+### 💡 Inzicht
+[Welke nieuwe inzichten neem je mee? Wat doe je volgende keer anders? Wat bekijk je nu op een andere manier?]
 
-### Wat wil ik verbeteren?
-[Wat neem je mee naar WPL 2? Wat doe je anders of beter?]
-
-### Waardering
-[Geef jezelf een eerlijke score op 10 voor dit werkplekleren en motiveer waarom.]
+### 👑 Waardering
+[Wat is jouw persoonlijk succes van dit WPL? Waarop ben je trots? Wie verdient een shout-out?]
 
 ---
 
 ## Reflectie WPL 2
 
-### Wat heb ik bereikt?
-[Beschrijf welke opdrachten, projecten en activiteiten je hebt afgerond tijdens WPL 2.]
+### 😊 Goed
+[Wat vond je positief? Wat ging er goed? Wat heeft je positief verrast?]
 
-### Hoe is het verlopen?
-[Wat ging goed? Wat was moeilijk? Hoe heb je met uitdagingen omgegaan?]
+### 😟 Minder goed
+[Wat vond je frustrerend? Waar botste je tegenaan? Wat liep er mis?]
 
-### Wat heb ik geleerd over mezelf?
-[Denk aan soft skills: communicatie, plannen, samenwerken, omgaan met feedback, ...]
+### 💡 Inzicht
+[Welke nieuwe inzichten neem je mee? Wat doe je volgende keer anders? Wat bekijk je nu op een andere manier?]
 
-### Wat wil ik verbeteren?
-[Wat neem je mee naar WPL 3? Wat doe je anders of beter?]
-
-### Waardering
-[Geef jezelf een eerlijke score op 10 voor dit werkplekleren en motiveer waarom.]
+### 👑 Waardering
+[Wat is jouw persoonlijk succes van dit WPL? Waarop ben je trots? Wie verdient een shout-out?]
 
 ---
 
 ## Reflectie WPL 3
 
-### Wat heb ik bereikt?
-[Beschrijf welke opdrachten, projecten en activiteiten je hebt afgerond tijdens WPL 3.]
+### 😊 Goed
+[Wat vond je positief? Wat ging er goed? Wat heeft je positief verrast?]
 
-### Hoe is het verlopen?
-[Wat ging goed? Wat was moeilijk? Hoe heb je met uitdagingen omgegaan?]
+### 😟 Minder goed
+[Wat vond je frustrerend? Waar botste je tegenaan? Wat liep er mis?]
 
-### Wat heb ik geleerd over mezelf?
-[Denk aan soft skills: communicatie, plannen, samenwerken, omgaan met feedback, ...]
+### 💡 Inzicht
+[Welke nieuwe inzichten neem je mee? Wat doe je volgende keer anders? Wat bekijk je nu op een andere manier?]
 
-### Wat wil ik verbeteren?
-[Wat neem je mee naar WPL 4? Wat doe je anders of beter?]
-
-### Waardering
-[Geef jezelf een eerlijke score op 10 voor dit werkplekleren en motiveer waarom.]
+### 👑 Waardering
+[Wat is jouw persoonlijk succes van dit WPL? Waarop ben je trots? Wie verdient een shout-out?]
 
 ---
 
 ## Reflectie WPL 4
 
-### Wat heb ik bereikt?
-[Beschrijf welke opdrachten, projecten en activiteiten je hebt afgerond tijdens WPL 4.]
+### 😊 Goed
+[Wat vond je positief? Wat ging er goed? Wat heeft je positief verrast?]
 
-### Hoe is het verlopen?
-[Wat ging goed? Wat was moeilijk? Hoe heb je met uitdagingen omgegaan?]
+### 😟 Minder goed
+[Wat vond je frustrerend? Waar botste je tegenaan? Wat liep er mis?]
 
-### Wat heb ik geleerd over mezelf?
-[Denk aan soft skills: communicatie, plannen, samenwerken, omgaan met feedback, ...]
+### 💡 Inzicht
+[Welke nieuwe inzichten neem je mee? Wat doe je volgende keer anders? Wat bekijk je nu op een andere manier?]
 
-### Terugblik op het volledige traject
-[Je bent aan het einde van je opleiding. Wat betekent dat voor jou? Hoe ben je gegroeid?]
-
-### Waardering
-[Geef jezelf een eerlijke score op 10 voor dit werkplekleren en motiveer waarom.]
+### 👑 Waardering
+[Wat is jouw persoonlijk succes van dit WPL? Waarop ben je trots? Wie verdient een shout-out en waarom?]
