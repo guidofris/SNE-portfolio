@@ -140,25 +140,6 @@ In totaal beschrijf je dus 4 voorbeelden. (Heb je nog onvoldoende ervaring? Besc
 
 ---
 
-### Gesprek 2
-**Datum:** 10 december 2025  
-**Coach:** Mevr. Claes
-
-**Besproken punten:**
-- Voortgang van het portfolio
-- Ontwikkeling van documentatievaardigheden
-- Planning voor WPL 2
-
-**Feedback die ik heb gekregen:**
-Mijn coach gaf aan dat mijn technische inzichten goed zijn, maar dat ik mijn bevindingen nog structureler moet noteren. Ze raadde aan om bij elke opdracht meteen een korte samenvatting te schrijven, zodat ik later niet alles opnieuw moet reconstrueren.
-
-**Afspraken / actiepunten:**
-- Elke opdracht meteen documenteren, ook als ze niet af zijn
-- LinkedIn-profiel afwerken vóór einde WPL 1
-- Drie vacatures opzoeken die passen bij mijn profiel en meenemen naar het volgende gesprek
-
----
-
 ## Overzicht ontwikkelingsgesprekken WPL 2
 
 ### Gesprek 1

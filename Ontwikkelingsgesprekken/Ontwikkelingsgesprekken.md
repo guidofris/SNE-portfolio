@@ -123,22 +123,6 @@ In totaal beschrijf je dus 4 voorbeelden. (Heb je nog onvoldoende ervaring? Besc
 
 ---
 
-### Gesprek 2
-**Datum:** [Datum]  
-**Coach:** [Naam coach]  
-
-**Besproken punten:**
-- [Punt 1]
-- [Punt 2]
-
-**Feedback die ik heb gekregen:**
-[Wat zei je coach?]
-
-**Afspraken / actiepunten:**
-- [Wat ga jij doen?]
-
----
-
 ## Overzicht ontwikkelingsgesprekken WPL 2
 
 ### Gesprek 1
