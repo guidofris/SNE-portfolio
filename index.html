@@ -55,8 +55,10 @@
           // Progress bars: replace BEFORE marked.js parses, because marked.js
           // silently consumes [progress:75] as an undefined reference link.
           hook.beforeEach(function(content) {
+            // Use <span display:block> instead of <div> — block elements break
+            // marked.js list-item inline parsing and get stripped.
             content = content.replace(/\[progress:(\d+)\]/g,
-              '<div class="progress"><div class="progress-bar" style="width:$1%"></div></div>');
+              '<span style="display:block;background:#e9ecef;border-radius:50px;height:8px;margin:.5rem 0;overflow:hidden"><span style="display:block;width:$1%;height:8px;background:#D4AF37;border-radius:50px"></span></span>');
             return content;
           });
 
