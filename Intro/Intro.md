@@ -1,10 +1,10 @@
-# Inleiding
+# Introductie
 
 ## Over Mij 
 
 **Naam:** [Jouw volledige naam]  
 **Studentennummer:** [Jouw studentennummer]  
-**Opleiding:** Associate Degree Systeem- en Netwerkbeheer  
+**Opleiding:** Graduaat Systeem- en Netwerkbeheer  
 **Academiejaar:** 2025-2026  
 **Email:** [jouw.email@student.pxl.be](mailto:jouw.email@student.pxl.be)  
 **LinkedIn:** [Jouw LinkedIn profiel](https://linkedin.com/in/jouwnaam)
@@ -36,7 +36,7 @@
 - **Teamwork:** [progress:80]
 - **Zelfstandigheid:** [progress:70]
 
-?> Pas de percentages aan naar jouw zelfbeoordeling (0–100). Gebruik `[progress:75]` voor een getal naar keuze.
+?> Pas de percentages aan naar jouw zelfbeoordeling (0–100). Gebruik `[progress:GETAL]` — vervang GETAL door een cijfer tussen 0 en 100.
 
 ---
 
@@ -60,7 +60,7 @@ Korte beschrijving van relevante kennis uit je vooropleiding...
 
 ## Persoonlijke Ontwikkeling
 
-### Mijn X-Factor
+### Mijn X-factor
 ?> Beschrijf hier jouw unieke kwaliteiten en wat jou onderscheidt van andere studenten.
 
 ### SDG's die mij inspireren
@@ -70,15 +70,4 @@ Korte beschrijving van relevante kennis uit je vooropleiding...
 
 ---
 
-## Portfolio Overzicht
-
-Dit portfolio documenteert mijn leertrajectory tijdens de Associate Degree Systeem- en Netwerkbeheer. Het bevat:
-
-- **Logboek:** Wekelijkse reflecties en leeractiviteiten
-- **Ontwikkelingsgesprekken:** Verslagen van coaching sessies
-- **Opdrachten:** Uitgewerkte projecten en taken
-- **Reflectie:** Diepere zelfreflectie op mijn ontwikkeling
-
----
-
-*Laatste update: [Datum]*
+*Laatste update: [28 oktober 2026]*

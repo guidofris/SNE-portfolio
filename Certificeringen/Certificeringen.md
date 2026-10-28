@@ -20,7 +20,7 @@ Hier houd je bij welke certificeringen je hebt behaald, welke je aan het voorber
 #### Belangrijkste Onderwerpen
 [skill:Topic1] [skill:Topic2] [skill:Topic3]
 
-#### Business Value
+#### Professionele meerwaarde
 [Beschrijf hoe deze certificering je werk verbetert]
 
 </div>
@@ -38,9 +38,9 @@ Hier houd je bij welke certificeringen je hebt behaald, welke je aan het voorber
 
 #### Studiemethode
 - **Boeken:** [Lijst studiemateriaal]
-- **Online courses:** [Platformen, cursussen]  
-- **Practice labs:** [Hands-on ervaring]
-- **Mock exams:** [Oefenexamens gedaan]
+- **Online cursussen:** [Platformen, cursussen]  
+- **Praktijklabs:** [Praktijkervaring]
+- **Oefenexamens:** [Oefenexamens gedaan]
 
 #### Planning
 - **Week 1-4:** [Onderwerpen]
@@ -54,31 +54,31 @@ Hier houd je bij welke certificeringen je hebt behaald, welke je aan het voorber
 
 ## Professionele Doelen
 
-### Certificering Roadmap
+### Certificeringsoverzicht
 
 <div class="timeline">
 
 <div class="timeline-item">
 
-### Foundation Level
-**CompTIA A+** ✅ Completed  
-**CompTIA Network+** ⏳ In Progress
+### Basisniveau
+**CompTIA A+** ✅ Behaald  
+**CompTIA Network+** ⏳ Bezig
 
 </div>
 
 <div class="timeline-item">
 
 ### Specialisatie  
-**Microsoft MCSA** 📋 Planned  
-**Cisco CCNA** 📋 Next Year
+**Microsoft MCSA** 📋 Gepland  
+**Cisco CCNA** 📋 Volgend jaar
 
 </div>
 
 <div class="timeline-item">
 
-### Advanced Level
-**VMware VCP** 📅 Future Goal  
-**Red Hat RHCE** 📅 Long-term Goal
+### Gevorderd niveau
+**VMware VCP** 📅 Toekomstig doel  
+**Red Hat RHCE** 📅 Langetermijndoel
 
 </div>
 
@@ -86,7 +86,7 @@ Hier houd je bij welke certificeringen je hebt behaald, welke je aan het voorber
 
 ---
 
-## Continuous Learning
+## Continu bijleren
 
 ### Recent Gevolgde Cursussen
 | Cursus | Platform | Afgerond | Certificaat |
@@ -102,51 +102,22 @@ Hier houd je bij welke certificeringen je hebt behaald, welke je aan het voorber
 
 ---
 
-## CV & Professional Profile
+## Professioneel profiel
 
-### Curriculum Vitae
-[**Download CV (PDF)**](./documents/CV_2026.pdf){:class="button"}
-
-**Laatst bijgewerkt:** [Datum]
-
-### Online Presence  
+### Online aanwezigheid  
 - **LinkedIn:** [Jouw LinkedIn profiel](https://linkedin.com/in/jouwnaam)
 - **GitHub:** [Jouw GitHub](https://github.com/jouwnaam)
-- **Personal Website:** [Website URL](https://jouwsite.nl)
 
-### Professional Summary
+### Professioneel overzicht
 
-?> **Value Proposition:** Schrijf hier in 2-3 zinnen wat jouw unieke waarde is voor werkgevers.
+?> **Meerwaarde:** Schrijf hier in 2-3 zinnen wat jouw unieke waarde is voor werkgevers.
 
 **Kerncompetenties:**
 [skill:Windows Server] [skill:Linux] [skill:Networking] [skill:Cloud Computing] [skill:Automation] [skill:Security] [skill:Troubleshooting] [skill:Documentation]
 
 **Werkervaring:** [X] jaar  
 **Specialisatie:** [Jouw focus gebied]  
-**Talen:** Nederlands (Native), Engels ([Niveau])
-
----
-
-## Presentaties & Sharing Knowledge
-
-### Gegeven Presentaties
-<div class="card">
-
-#### "[Presentatie Titel]"
-**Evenement:** [Naam evenement/organisatie]  
-**Datum:** [Datum]  
-**Publiek:** [Beschrijving audience]  
-**Onderwerp:** [Korte beschrijving]
-
-[**Slides (PDF)**](./documents/presentation.pdf){:class="btn"}
-
-</div>
-
-### Knowledge Sharing
-- **Blog posts:** [Link naar posts]
-- **Tech talks:** [Onderwerpen gepresenteerd]  
-- **Mentoring:** [Studenten/collega's geholpen]
-- **Community involvement:** [IT communities, forums]
+**Talen:** Nederlands (Moedertaal), Engels ([Niveau])
 
 ---
 

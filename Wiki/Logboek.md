@@ -1,16 +1,17 @@
-# Logboek
+# Logboek werkplekleren
 
 **Werkplekleren is een belangrijk onderdeel in de studie van Graduaat Systemen en Netwerken.**
 
 ![](../images/Planning_WPL1.png)
 
-**Het doel van WPL1 was oriëntering en kennismaken met het werkveld.**
+**Het doel van WPL 1 was oriëntering en kennismaken met het werkveld.**
 
-Hiervoor hebben we opdrachten gedaan om het werkveld te verkenning, stilgestaan bij persoonlijke
-kwaliteiten en ontwikkeling, gastcolleges gevolgd en kleine technische opdrachten uitgevoerd.
+Tijdens WPL 1 hebben we opdrachten gedaan om het werkveld te verkennen, stilgestaan bij persoonlijke kwaliteiten en ontwikkeling, gastcolleges gevolgd en kleine technische opdrachten uitgevoerd.
 
+---
 
-## **Planning WPL1:**
+## Logboek WPL 1
+
 ### Agenda 2025
 | Week | Datum | Opdracht |
 |------|--------|----------|
@@ -28,3 +29,25 @@ kwaliteiten en ontwikkeling, gastcolleges gevolgd en kleine technische opdrachte
 | 12 | 17 december 2025 8:30 - 11:30 | Netwerkdag  <br> Netwerkschema's  <br> Kerstvakantie |
 | 13 | 07 januari 2026 8:30 - 11:30 | Gastspreker Back-ups  <br> Reflectieopdrachten portfolio |
 | 14 | 14 januari 2026 8:30 - 11:30 | Uitleg Corda Campus  <br> Afwerken portfolio  <br> Inhaal PE's/opdrachten |
+
+---
+
+## Logboek WPL 2
+
+?> Vul dit logboek aan zodra WPL 2 van start gaat. Gebruik dezelfde weekstructuur als hierboven.
+
+---
+
+## Logboek WPL 3
+
+?> Vul dit logboek aan zodra WPL 3 van start gaat.
+
+---
+
+## Logboek WPL 4
+
+?> Vul dit logboek aan zodra WPL 4 van start gaat.
+
+---
+
+[**← Terug naar voorbeeldportfolio overzicht**](/Wiki/Home)

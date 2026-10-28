@@ -52,11 +52,17 @@
       plugins: [
         // Skill badges and progress bars
         function(hook, vm) {
+          // Progress bars: replace BEFORE marked.js parses, because marked.js
+          // silently consumes [progress:75] as an undefined reference link.
+          hook.beforeEach(function(content) {
+            content = content.replace(/\[progress:(\d+)\]/g,
+              '<div class="progress"><div class="progress-bar" style="width:$1%"></div></div>');
+            return content;
+          });
+
           hook.afterEach(function(html, next) {
             // Skill badges: [skill:TechnologieNaam]
             html = html.replace(/\[skill:([^\]]+)\]/g, '<span class="skill-badge">$1</span>');
-            // Progress bars: [progress:75]
-            html = html.replace(/\[progress:(\d+)\]/g, '<div class="progress"><div class="progress-bar" style="width: $1%"></div></div>');
             next(html);
           });
 

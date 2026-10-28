@@ -33,10 +33,11 @@ Dit portfolio toont je:
 Gebruik de navigatie links om door de verschillende secties te bladeren:
 
 - **Introductie** - Persoonlijke informatie, motivatie en doelen
-- **Logboek WPL** - Wekelijkse activiteiten en reflecties  
+- **Logboek WPL** - Wekelijkse activiteiten en agenda
 - **Ontwikkelingsgesprekken** - Coaching gesprekken en feedback
-- **Opdrachten** - Uitgewerkte projecten en assessments
-- **Reflectie** - Diepgaande zelfreflectie en leergroei
+- **Opdrachten** - Uitgewerkte opdrachten en resultaten
+- **Certificeringen & CV** - Behaalde certificaten en professioneel profiel
+- **Reflectie** - AIM-reflectie en persoonlijke groei
 
 ---
 

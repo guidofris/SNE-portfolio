@@ -4,8 +4,6 @@
 
 Het logboek is jouw wekelijks dagboek van het werkplekleren. Je noteert wat er die week gebeurd is, wat je hebt geleerd, en wat je de volgende keer anders of beter wil doen.
 
-?> **Hoe gebruik je dit logboek?** Na elke les of activiteit vul je de template hieronder in voor die week. Kopieer de template en plak ze onder de bijhorende week in de agenda. Wees eerlijk — dit is in de eerste plaats voor jezelf.
-
 ---
 
 ## Logboek WPL 1
@@ -27,45 +25,6 @@ Het logboek is jouw wekelijks dagboek van het werkplekleren. Je noteert wat er d
 | 13 | 07 januari 2026 8:30 - 11:30 | Gastspreker Back-ups  <br> Reflectieopdrachten portfolio |
 | 14 | 14 januari 2026 8:30 - 11:30 | Uitleg Corda Campus  <br> Afwerken portfolio  <br> Inhaal PE's/opdrachten |
 
-### Mijn wekelijkse notities
-
-Kopieer de template hieronder voor elke week en vul ze in.
-
----
-
-#### Week 1 — 24 september 2025
-
-**Wat heb ik deze week gedaan?**  
-[Beschrijf kort de activiteiten van deze week]
-
-**Wat heb ik geleerd?**  
-[Nieuwe kennis, vaardigheden of inzichten]
-
-**Wat vond ik moeilijk of verrassend?**  
-[Wees eerlijk — wat was een uitdaging?]
-
-**Wat neem ik mee naar volgende week?**  
-[Een voornemen, een vraag, of een actiepunt]
-
----
-
-#### Week 2 — 1 oktober 2025
-
-**Wat heb ik deze week gedaan?**  
-[Beschrijf kort de activiteiten van deze week]
-
-**Wat heb ik geleerd?**  
-[Nieuwe kennis, vaardigheden of inzichten]
-
-**Wat vond ik moeilijk of verrassend?**  
-[Wees eerlijk — wat was een uitdaging?]
-
-**Wat neem ik mee naar volgende week?**  
-[Een voornemen, een vraag, of een actiepunt]
-
----
-
-!> Vul de overige weken aan door de template hierboven te kopiëren en in te vullen na elke les.
 
 ## Logboek WPL 2
 
@@ -78,7 +37,3 @@ Kopieer de template hieronder voor elke week en vul ze in.
 ## Logboek WPL 4
 
 ?> Vul dit logboek aan zodra WPL 4 van start gaat.
-
-## Logboek WPL 3
-
-## Logboek WPL4

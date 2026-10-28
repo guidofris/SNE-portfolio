@@ -17,12 +17,11 @@ eerste instantie vanuit jezelf. Maar overleg en bespreking van je leerinzichten 
 de uitwerking van je reflectiedossier verder versterken.
 
 ## Structuur <!-- {docsify-ignore} -->
-Het portfolio bestaat uit 7 delen:
+Het portfolio bestaat uit 6 delen:
 * Introductie
 * Logboek werkplekleren
 * Ontwikkelingsgesprekken
 * Opdrachten
-* Projecten & Cases
 * Certificeringen & CV
 * Reflectie
 

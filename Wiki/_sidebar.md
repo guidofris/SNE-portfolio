@@ -9,6 +9,7 @@
 * [Logboek WPL](/Wiki/Logboek.md)
 * [Ontwikkelingsgesprekken](/Wiki/Ontwikkeling.md)
 * [Opdrachten](/Wiki/Opdrachten.md)
+* [Certificeringen & CV](/Wiki/Certificeringen.md)
 * [Reflectie](/Wiki/Reflectie.md)
 
 ---
